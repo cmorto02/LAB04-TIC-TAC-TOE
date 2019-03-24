@@ -6,15 +6,45 @@ namespace Lab04_TicTacToe
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
             PlayGame();
         }
 
         static void PlayGame()
         {
-            // TODO: Setup your game here. Create an introduction. 
-            // Create your players, and instantiate your Game class. 
-            // output to the console the winner
+            Console.WriteLine("Lets play Tic Tac Toe!");
+            Console.WriteLine("Player 1, please enter your name:");
+            string p1 = Console.ReadLine();
+
+            Player player1 = new Player
+            {
+                Name = p1,
+                Marker = X,
+                IsTurn = true
+            };
+
+            Console.WriteLine("Player 1, please enter your name:");
+            string p1 = Console.ReadLine();
+
+            Player player2 = new Player
+            {
+                Name = p2,
+                Marker = O,
+                IsTurn = false
+            };
+
+            Console.Clear();
+            Console.WriteLine("Lets start!");
+            Game game = new Game(player1, player2);
+
+            Player winner = game.Play();
+            if(!(winner is null))
+            {
+                Console.WriteLine($"{winner.Name} Wins!");
+            }
+            else
+            {
+                Console.WriteLine("It's a draw!");
+            }
         }
     }
 }

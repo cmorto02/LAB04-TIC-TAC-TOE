@@ -30,7 +30,7 @@ namespace Lab04_TicTacToe.Classes
 		/// <returns>Winner</returns>
 		public Player Play()
 		{
-
+            int turns = 0;
 			//TODO: Complete this method and utilize the rest of the class structure to play the game.
 
             /*
@@ -82,9 +82,14 @@ namespace Lab04_TicTacToe.Classes
 				string b = Board.GameBoard[p2.Row, p2.Column];
 				string c = Board.GameBoard[p3.Row, p3.Column];
 
-				// TODO:  Determine a winner has been reached. 
-				// return true if a winner has been reached. 
-			
+                // TODO:  Determine a winner has been reached. 
+                // return true if a winner has been reached. 
+
+                if (a == b && a == c)
+                {
+                    return true;
+                }
+
 			}
 
 			return false;
