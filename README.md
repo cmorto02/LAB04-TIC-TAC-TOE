@@ -19,20 +19,20 @@ Select File -> Open -> Project/Solution
 
 Next navigate to the location you cloned the Repository.
 
-Double click on the Lab01-numbersgame directory.
+Double click on the Lab04-TIC-TAC-TOE directory.
 
-Then select and open numbersgame.sln
+Then select and open Lab04-TIC-TAC-TOE.sln
 
 ### Visuals
 
 Application Start
-![alt text](https://github.com/cmorto02/lab01-numbersgame/blob/master/lab01-numbersgame/Assets/numbersgame%20start.JPG)
+![alt text](https://github.com/cmorto02/LAB04-TIC-TAC-TOE/blob/master/Lab04_TicTacToe/images/ttt%20start.JPG)
 
 Using the Application
-![alt text](https://github.com/cmorto02/lab01-numbersgame/blob/master/lab01-numbersgame/Assets/numbersgame%20during.JPG)
+![alt text](https://github.com/cmorto02/LAB04-TIC-TAC-TOE/blob/master/Lab04_TicTacToe/images/ttt%20during.JPG)
 
 Application End
-![alt text](https://github.com/cmorto02/lab01-numbersgame/blob/master/lab01-numbersgame/Assets/numbersgame%20complete.JPG)
+![alt text](https://github.com/cmorto02/LAB04-TIC-TAC-TOE/blob/master/Lab04_TicTacToe/images/ttt%20complete.JPG)
 
 ### Change Log
 
