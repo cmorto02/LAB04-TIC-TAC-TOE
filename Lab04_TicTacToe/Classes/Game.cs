@@ -32,8 +32,7 @@ namespace Lab04_TicTacToe.Classes
 		{
             int turns = 0;
             bool win = false;
-            Player player = PlayerOne;
-
+            Player player = null;
             Board.DisplayBoard();
             while (Winner == null && turns < 9)
             {
