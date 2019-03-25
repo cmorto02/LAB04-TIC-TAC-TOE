@@ -3,12 +3,15 @@ using System;
 
 namespace Lab04_TicTacToe
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
             PlayGame();
         }
+        /// <summary>
+        /// Creates the game, names players, callse the game.Play() method
+        /// </summary>
         static void PlayGame()
         {
             Console.WriteLine("Lets play Tic Tac Toe!");
