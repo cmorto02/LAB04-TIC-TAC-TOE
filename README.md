@@ -35,6 +35,7 @@ Application End
 ![alt text](https://github.com/cmorto02/LAB04-TIC-TAC-TOE/blob/master/Lab04_TicTacToe/images/ttt%20complete.JPG)
 
 ### Change Log
-
+1.0.1
+Unit tests are all passing, summary comments added.
 
 For more information on Markdown: https://www.markdownguide.org/cheat-sheet
